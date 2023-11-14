@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "storagebucketgcptest"
+  description: This a GCP Storage Bucket
+spec:
+  type: GCP
+  owner: user:guest
+  lifecycle: experimental
